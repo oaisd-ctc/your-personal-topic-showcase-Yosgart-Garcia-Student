@@ -1,6 +1,13 @@
 body
 {
-    background-image: linear-gradient(darkred, rgb(150, 55, 0)); 
+    background-image: url("./images/forest.jpg"); 
     background-repeat: no-repeat;
     background-size: 3000px 1500px;
+}
+
+footer
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
 }
