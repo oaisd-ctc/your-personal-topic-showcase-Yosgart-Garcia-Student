@@ -5,9 +5,28 @@ body
     background-size: 3000px 1500px;
 }
 
+h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+
 footer
 {
     color: white;
     font-size: 40px;
     text-align: center;
+}
+
+.quote
+{
+    font-size: 25px;
+    border-style: solid;
+    border-color: rgb(120, 35, 45);
+    text-align: center;
+    box-shadow: -10px 10px 1px rgb(70, 10, 15);
+    background-color: rgb(100, 0, 25);
+    color: lightgray;
+    font-style: italic;
+    padding: 20px;
 }
