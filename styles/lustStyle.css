@@ -17,7 +17,16 @@ nav
 
 .quote
 {
-    
+    font-family: Garamond;
+    font-size: 25px;
+    border-color: rgb(238, 136, 216);
+    text-align: center;
+    background-color: rgba(200, 100, 195, 0.7);
+    color: white;
+    font-style: italic;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
 }
 
 .text
