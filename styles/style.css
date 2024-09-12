@@ -30,8 +30,14 @@ nav
     border-color: rgb(15, 15, 15);
     text-align: center;
     box-shadow: -10px 10px 1px rgb(5, 10, 15);
-    background-color: rgb(55, 55, 50);
+    background-color: rgba(55, 55, 50, 0.75);
     color: lightgray;
     font-style: italic;
     padding: 20px;
+}
+
+.text
+{
+    text-align: center;
+    font-size: 25px;
 }
