@@ -1,8 +1,8 @@
 body
 {
-    background-image: url("forest.jpg"); 
+    background-image: url("../images/forest.jpg"); 
     background-repeat: no-repeat;
-    background-size: 3000px 1500px;
+    background-size: 2000px 1200px;
 }
 
 h1
@@ -11,7 +11,7 @@ h1
     text-align: center;
 }
 
-footer
+nav
 {
     color: white;
     font-size: 40px;
@@ -22,11 +22,11 @@ footer
 {
     font-size: 25px;
     border-style: solid;
-    border-color: rgb(120, 35, 45);
+    border-color: rgb(238, 236, 216);
     text-align: center;
-    box-shadow: -10px 10px 1px rgb(70, 10, 15);
-    background-color: rgb(100, 0, 25);
-    color: lightgray;
+    box-shadow: -10px 10px 1px rgb(120, 120, 120);
+    background-color: rgb(220, 220, 205);
+    color: rgb(100, 100, 100);
     font-style: italic;
     padding: 20px;
 }
