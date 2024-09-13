@@ -2,7 +2,20 @@ body
 {
     background-image: url("../images/gate.jpg"); 
     background-repeat: no-repeat;
-    background-size: 2000px 1100px;
+    background-size: 2100px 1100px;
+    position: relative;
+
+    animation-name: movingBackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes movingBackground
+{
+    0% {background-position: -5px 0px;}
+    100% {background-position: -25px 0px;}
 }
 
 h1
@@ -30,13 +43,26 @@ nav
     font-family: Garamond;
     font-size: 25px;
     border-style: solid;
+    color: white;
     border-color: rgb(15, 15, 15);
     text-align: center;
     box-shadow: -10px 10px 1px rgb(5, 10, 15);
     background-color: rgba(55, 55, 50, 0.75);
-    color: lightgray;
     font-style: italic;
     padding: 20px;
+}
+
+strong
+{
+    color: red;
+    animation-name: whiteToRed;
+    animation-duration: 10s;
+}
+
+@keyframes whiteToRed
+{
+    from {color: white;}
+    to {color: red;}
 }
 
 .text
