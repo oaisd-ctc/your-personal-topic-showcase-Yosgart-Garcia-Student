@@ -1,6 +1,7 @@
 body
 {
     background-image: url("../images/gate.jpg"); 
+    image-rendering: pixelated;
     background-repeat: no-repeat;
     background-size: 2100px 1100px;
     position: relative;
