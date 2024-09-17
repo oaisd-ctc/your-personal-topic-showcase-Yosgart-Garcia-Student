@@ -66,3 +66,16 @@ nav
     font-size: 25px;
     padding: 20px;
 }
+
+ul
+{
+    font-family: Garamond;
+    color: rgb(100, 100, 100);
+    border-color: rgb(238, 236, 216);
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(220, 220, 205, 0.7);
+    font-size: 25px;
+    padding: 20px;
+}
