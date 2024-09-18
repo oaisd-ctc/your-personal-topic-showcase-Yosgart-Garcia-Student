@@ -1,0 +1,104 @@
+body
+{
+    background-image: url("../images/burning-people.jpg"); 
+
+    animation-name: blur-in;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+
+@keyframes blur-in
+{
+    from{filter: blur(5px);}
+    to{filter: blur(0px);}
+}
+
+h1
+{
+    font-family: Papyrus;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3
+{
+    font-family: Garamond;
+    font-size: 25px;
+    border-style: none;
+    border-color: rgb(15, 15, 15);
+    background-color: rgba(75, 20, 0, 0.85);
+}
+
+
+main
+{
+    color: white;
+}
+
+nav
+{
+    font-family: Papyrus;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(75, 20, 0, 0.85);
+    padding: 20px;
+}
+
+.quote
+{
+    font-family: Garamond;
+    font-size: 25px;
+    border-style: none;
+    color: white;
+    border-color: rgb(15, 15, 15);
+    text-align: center;
+    box-shadow: -10px 10px 1px rgb(5, 10, 15);
+    background-color: rgba(75, 20, 0, 0.85);
+    font-style: italic;
+    padding: 20px;
+}
+
+footer
+{
+    color: white;
+}
+
+ol
+{
+    padding: 40px;
+    border-style: none;
+    border-color: rgb(15, 15, 15);
+    background-color: rgba(75, 20, 0, 0.85);
+    text-align: justify;
+    font-size: 25px;
+}
+
+article
+{
+    font-family: "Lucida Handwriting";
+    border-style: none;
+    border-color: rgb(15, 15, 15);
+    background-color: rgba(90, 0, 0, 0.85);
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+.text
+{
+    padding: 25px;
+    border-style: none;
+    border-color: rgb(15, 15, 15);
+    background-color: rgba(75, 20, 0, 0.85);
+    text-align: center;
+    font-size: 25px;
+}
+
+img
+{
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
